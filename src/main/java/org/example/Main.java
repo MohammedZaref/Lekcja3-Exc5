@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -15,5 +16,6 @@ public class Main {
         int[] triangleThreeSides = new int[]{
                 sc.nextInt(), sc.nextInt(), sc.nextInt()
         };
+        Arrays.sort(triangleThreeSides);
     }
 }
